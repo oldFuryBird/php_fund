@@ -1,0 +1,25 @@
+{
+    "name": "oldFuryBird/php_fund",
+    "description": "trace some fund by php script",
+    "type": "project",
+    "require": {
+	"php":">=7.0.0",    
+        "phpmailer/phpmailer": "^6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "蠢的没朋友",
+            "email": "ccwc1@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+    	"psr-4":{
+	     "Fund\\Http\\":"src/Fund/Http",
+       "Fund\\Craw\\":"src/Fund/Craw",
+	     "Fund\\UI\\":"src/Fund/UI"
+	   }
+    	
+    }
+}

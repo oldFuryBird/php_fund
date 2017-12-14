@@ -1,7 +1,7 @@
 <?php
-namespace Crawl;
-use Http\Http;
-class Fund
+namespace Fund\Crawl;;
+use Fund\Http\Http;
+class Crawl
 {
   protected $base_url = "http://fundgz.1234567.com.cn/js/%s.js";
   public function __construct()

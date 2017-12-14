@@ -1,7 +1,7 @@
 <?php
-namespace Ui;
-use Crawl\Fund;
-class Display
+namespace Fund\UI;
+use Fund\Crawl\Crawl;
+class UI
 {
 
   public static function colorUiInConsole($data)

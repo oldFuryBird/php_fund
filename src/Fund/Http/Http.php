@@ -1,5 +1,5 @@
 <?php
-namespace Http;
+namespace Fund\Http;
 class Http
 {
   protected $error =[
