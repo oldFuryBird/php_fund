@@ -17,7 +17,7 @@
     "autoload":{
     	"psr-4":{
 	     "Fund\\Http\\":"src/Fund/Http",
-         "Fund\\Crawl\\":"src/Fund/Craw",
+         "Fund\\Crawl\\":"src/Fund/Crawl",
 	     "Fund\\UI\\":"src/Fund/UI"
 	   }
     	
