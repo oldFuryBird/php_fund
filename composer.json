@@ -1,7 +1,7 @@
 {
     "name": "oldFuryBird/php_fund",
     "description": "trace some fund by php script",
-    "type": "project",
+    "type": "library",
     "require": {
 	"php":">=7.0.0",    
         "phpmailer/phpmailer": "^6.0"
