@@ -34,6 +34,3 @@ class Crawl
       return $result;
   }
 }
-// require "Http.php";
-// $a = new Fund();
-// var_dump($a->getSingleFundInfo(260112));

@@ -67,7 +67,7 @@ echo $helpinfo."\n";
      case '-o':
      case '--output':
       if(isset($argv[2])){
-          $fundRepo = new Fund();
+          $fundRepo = new Crawl();
           if(strpos($argv[2], ',')){
               $fundCodelist = explode(',', $argv[2]);
              

@@ -1,5 +1,5 @@
 {
-    "name": "oldFuryBird/php_fund",
+    "name": "oldfurybird/php_fund",
     "description": "trace some fund by php script",
     "type": "library",
     "require": {
@@ -17,7 +17,7 @@
     "autoload":{
     	"psr-4":{
 	     "Fund\\Http\\":"src/Fund/Http",
-       "Fund\\Craw\\":"src/Fund/Craw",
+         "Fund\\Crawl\\":"src/Fund/Craw",
 	     "Fund\\UI\\":"src/Fund/UI"
 	   }
     	
